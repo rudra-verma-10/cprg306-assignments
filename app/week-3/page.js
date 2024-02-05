@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <main>
       <h1>Shopping list</h1>
-      <Link href=""><ItemList /></Link>
+      <ItemList />
     </main>
   );
 }

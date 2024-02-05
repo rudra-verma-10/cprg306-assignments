@@ -1,8 +1,13 @@
 const Item = ({ name, quantity, category }) => {
   return (
+   <ul>
     <li>
-      {name} {quantity} {category}
+      Name: {name}
     </li>
+    <li>
+      buy {quantity} in the {category} category
+    </li>
+   </ul>
   );
 }
 
