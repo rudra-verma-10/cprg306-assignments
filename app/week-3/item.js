@@ -1,7 +1,7 @@
 const Item = ({ name, quantity, category }) => {
   return (
-   <ul>
-    <li>
+   <ul className="bg-blue-300 p-4 w-1/3 mt-6 mx-4">
+    <li className="font-bold text-xl">
       Name: {name}
     </li>
     <li>
