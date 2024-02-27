@@ -23,9 +23,9 @@ const ItemList = () => {
 return (
 
   <div>
-      <button onClick={() => setSortBy('name')} className="p-5 m-2 text-xl border border-blue-300 bg-blue-300 rounded-xl">
+      <button onClick={() => setSortBy('name')} className="p-5 m-2 text-xl bg-gray-400 rounded-xl hover:bg-orange-300">
         Sort by Name</button>
-      <button onClick={() => setSortBy('category')} className="p-5 m-2 text-xl border border-blue-300  bg-blue-300 rounded-xl">
+      <button onClick={() => setSortBy('category')} className="p-5 m-2 text-xl bg-gray-400 rounded-xl  hover:bg-orange-300">
         Sort by Category</button>
       <ul>
         {sortedItems.map(item => (
