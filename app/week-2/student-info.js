@@ -1,8 +1,9 @@
 const StudentInfo = () => {
   return (
-    <div>
+    <div >
       <p>Rudra Verma</p>
-      <p>My Git repository link</p>
+      <p className=" hover:text-blue-200 hover:underline mb-2">
+        My Git repository link</p>
     </div>
   );
 }
