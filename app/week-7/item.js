@@ -7,7 +7,7 @@ const Item = ({ name, quantity, category, onSelect}) => {
         Name: {name}
       </li>
       <li>
-        buy {quantity} in the {category} category
+        buy {quantity} in the {category} category 
       </li>
     </ul>
   </div>

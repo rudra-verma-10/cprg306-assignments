@@ -3,6 +3,7 @@
 import React, {useState, useEffect} from "react";
 
 const fetchMealIdeas = async (ingredient) => {
+    console.log("fetchMealIdeas", ingredient);
     const endpoint = `https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`;
     try {
         const response = await fetch(endpoint);
